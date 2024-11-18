@@ -1,0 +1,56 @@
+.list-icon {
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.5;
+    scale: 0.97;
+  }
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//img/icon/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid $icons;
+
+    &--devices {
+      align-self: flex-end;
+      justify-self: flex-end;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 1439px) {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//img/icon/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid $icons;
+
+    &--devices {
+      align-self: flex-end;
+      justify-self: flex-end;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//img/icon/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid $icons;
+
+    &--devices {
+      align-self: flex-end;
+      justify-self: flex-end;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.desc-wrapper {
+  @media (min-width:767px) and (max-width:1439px) {
+    width: 768px;
+    justify-self: center;
+  }
+
+  @media (min-width:1440px) {
+    width: 1120px;
+    justify-self: center;
+  }
+}

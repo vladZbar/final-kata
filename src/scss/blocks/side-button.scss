@@ -1,0 +1,30 @@
+.side-button {
+  width: 40px;
+  height: 40px;
+  background-color: $icons;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+  @media (min-width:1440px) {
+    &--close {
+      display: none !important;
+    }
+
+    &--search {
+      margin: 0 !important;
+    }
+  }
+
+  &--close {
+    background: url(../img/icon/close.svg) no-repeat 50% 50%;
+    background-color: $icons;
+  }
+
+  &--search {
+    background: url(../img/icon/search-side.svg) no-repeat 50% 50%;
+    background-color: $icons;
+  }
+}

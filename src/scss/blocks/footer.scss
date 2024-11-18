@@ -1,0 +1,88 @@
+.footer {
+  @media (min-width:0px) and (max-width:767px) {
+    height: 129px;
+    border-top: 1px solid $borderHeader;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    &__item {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "TT lakes";
+      color: $hover-text;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    height: 129px;
+    width: 768px;
+    border-top: 1px solid $borderHeader;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-self: center;
+
+    &__item {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "TT lakes";
+      color: $hover-text;
+      font-size: 14px;
+      line-height: 16px;
+      width: 213px;
+    }
+
+    &__item--first {
+      align-items: start;
+      text-wrap: nowrap;
+    }
+
+    &__item--last {
+      text-align: end;
+    }
+  }
+
+  @media (min-width:1440px) {
+    height: 129px;
+    width: 1120px;
+    border-top: 1px solid $borderHeader;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-self: center;
+
+    &__item {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "TT lakes";
+      color: $hover-text;
+      font-size: 14px;
+      line-height: 16px;
+      width: 333px;
+      text-align: start;
+    }
+
+    &__item--first {
+      align-items: start;
+      text-wrap: nowrap;
+    }
+
+    &__item--last {
+      text-align: end;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.mob-container {
+  @media (min-width:0px) and (max-width:767px) {
+    display: none;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    display: flex;
+    gap: 16px;
+  }
+}

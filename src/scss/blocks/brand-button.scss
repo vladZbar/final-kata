@@ -1,0 +1,55 @@
+.brand-button {
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.5;
+    scale: 0.97;
+  }
+
+  @media (min-width:0px) and (max-width:767px) {
+    display: none;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    color: $main-text;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding-top: 24px;
+    max-width: max-content;
+
+    &__arrow {
+      transition: 0.3s;
+      background: url(../img/icon/expand.svg) no-repeat;
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+
+    &__arrow--down {
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (min-width:1440px) {
+    color: $main-text;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding-top: 24px;
+    max-width: max-content;
+
+    &__arrow {
+      transition: 0.3s;
+      background: url(../img/icon/expand.svg) no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+
+    &__arrow--down {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.devices {
+  @media (min-width:0px) and (max-width:767px) {
+    &__item {
+      height: 160px;
+      width: 240px;
+      background: #fff;
+      border-radius: 6px;
+      border: 1px solid $decor;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+
+    &__title {
+      display: block;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    &__item {
+      height: 160px;
+      width: 224px;
+      background: #fff;
+      border-radius: 6px;
+      border: 1px solid $decor;
+      display: inline-flex;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+
+    &__title {
+      display: block;
+    }
+  }
+
+  @media (min-width:1440px) {
+    &__item {
+      height: 160px;
+      width: 240px;
+      background: #fff;
+      border-radius: 6px;
+      border: 1px solid $decor;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+
+    &__title {
+      display: block;
+    }
+  }
+}

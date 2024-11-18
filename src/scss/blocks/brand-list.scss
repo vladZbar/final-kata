@@ -1,0 +1,45 @@
+.brand-list {
+  @media (min-width:0px) and (max-width:767px) {
+    display: none;
+
+    &__item {
+      width: 224px;
+      height: 72px;
+      border: 1px solid $decor;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 21px;
+    overflow: hidden;
+    height: 162px;
+
+    &__item {
+      width: 224px;
+      height: 72px;
+      border: 1px solid $decor;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+    }
+  }
+
+  @media (min-width:1440px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 30px;
+    overflow: hidden;
+    height: 162px;
+
+    &__item {
+      width: 240px;
+      height: 72px;
+      border: 1px solid $decor;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.brands-header {
+  @media (min-width:0px) and (max-width:767px) {
+    max-height: 80px;
+    width: 100%;
+    padding: 16px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      min-width: 288px;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    height: 56px;
+    width: 100%;
+    padding: 16px 24px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      min-width: 288px;
+      width: 768px;
+      justify-self: center;
+      margin-left: 24px;
+    }
+  }
+
+  @media (min-width:1440px) {
+    height: 56px;
+    width: 100%;
+    padding: 16px 32px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      min-width: 288px;
+    }
+  }
+}

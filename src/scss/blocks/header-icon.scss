@@ -1,0 +1,42 @@
+.header-icon {
+  display: block;
+  background-color: $icons;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.5s;
+
+  @media (min-width:1440px) {
+    margin-left: 8px;
+  }
+
+  &--phone {
+    background: url(../img/icon/phone.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &--message {
+    background: url(../img/icon/message.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &--contact {
+    background: url(../img/icon/contact.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &--burger {
+    background: url(../img/icon/burger.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &--key {
+    background: url(../img/icon/key.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &--search {
+    background: url(../img/icon/search.svg) no-repeat 50% 50%, $icons;
+  }
+
+  &:hover {
+    opacity: 0.5;
+    scale: 0.97;
+  }
+
+}

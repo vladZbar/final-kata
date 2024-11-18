@@ -1,0 +1,60 @@
+.header {
+  @media (min-width:0px) and (max-width:767px) {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $borderHeader;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid $borderHeader;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+
+    &__decor {
+      width: 2px;
+      height: 32px;
+      background-color: $decor;
+      margin-right: 16px;
+      display: none;
+    }
+
+    &__decor--mob {
+      display: block;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $borderHeader;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 1px solid $borderHeader;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+
+    &__decor {
+      width: 2px;
+      height: 32px;
+      background-color: $decor;
+    }
+  }
+
+  @media (min-width:1440px) {
+    display: none;
+
+    &__logo {
+      margin-right: 250px;
+    }
+
+    &__decor {
+      width: 2px;
+      height: 32px;
+      background-color: $decor;
+      border-radius: 1px;
+    }
+  }
+}

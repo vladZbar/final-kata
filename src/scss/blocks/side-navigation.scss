@@ -1,0 +1,37 @@
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+
+  &__item {
+    font-family: 'TT lakes';
+    font-size: 16px;
+    color: $main-text;
+    font-weight: 500;
+    transition: 0.5s;
+    height: 32px;
+
+    &:hover {
+      color: $hover-text;
+    }
+
+    &:focus {
+      color: $hover-text;
+    }
+
+    &:focus::before {
+      content: "";
+      display: inline-block;
+      height: 32px;
+      width: 4px;
+      background-color: $highlight;
+      position: absolute;
+      left: 0;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      margin-top: -9px;
+    }
+
+  }
+}

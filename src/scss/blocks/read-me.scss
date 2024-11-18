@@ -1,0 +1,77 @@
+.read-me {
+  
+  transition: 0.5s;
+
+  &:hover {
+    opacity: 0.5;
+    scale: 0.97;
+  }
+
+  @media (min-width:0px) and (max-width:767px) {
+    display: flex;
+    height: 24px;
+    width: max-content;
+    align-items: center;
+    color: $main-text;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    background-color: $main-bg;
+    transition: 0.5s;
+
+    &__icon {
+      background: url(../img/icon/expand.svg) no-repeat 50% 50%;
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      transform: rotate(0deg);
+    }
+
+    &--down {
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    display: inline-flex;
+    height: 24px;
+    width: max-content;
+    align-items: center;
+    background-color: $main-bg;
+    font-weight: 500;
+
+    &__icon {
+      background: url(../img/icon/expand.svg) no-repeat 50% 50%;
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      transition: 0.5s;
+      transform: rotate(0deg);
+    }
+
+    &--down {
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (min-width:1440px) {
+    display: inline-flex;
+    height: 24px;
+    width: max-content;
+    align-items: center;
+    background-color: $main-bg;
+    font-weight: 500;
+
+    &__icon {
+      background: url(../img/icon/expand.svg) no-repeat 50% 50%;
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+      transition: 0.5s;
+      transform: rotate(0deg);
+    }
+
+    &--down {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.services-title {
+  @media (min-width:0px) and (max-width:767px) {
+    display: none;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    display: grid;
+    grid-template: 1fr/372px 102px 90px;
+    font-family: "TT Lakes";
+    color: $hover-text;
+    margin-bottom: 16px;
+  }
+
+  @media (min-width:1440px) {
+    display: grid;
+    grid-template: 1fr/372px 102px 90px;
+    font-family: "TT Lakes";
+    color: $hover-text;
+    margin-bottom: 16px;
+  }
+}

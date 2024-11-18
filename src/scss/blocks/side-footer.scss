@@ -1,0 +1,39 @@
+.side-footer {
+  position: absolute;
+  margin-left: 16px;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    position: absolute;
+    bottom: 0;
+    margin-left: 16px;
+  }
+
+  @media (min-width: 767px) and (max-width: 1439px) {
+    position: absolute;
+    bottom: 0;
+    margin-left: 16px;
+  }
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    top: 727px;
+    margin-left: 16px;
+  }
+
+  &__mail {
+    display: block;
+    margin-top: 16px;
+    font-family: 'TT lakes';
+    color: $main-text;
+  }
+
+  &__phone {
+    display: block;
+    margin-top: 12px;
+    font-family: 'TT lakes';
+    color: $main-text;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}

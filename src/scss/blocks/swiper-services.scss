@@ -1,0 +1,31 @@
+.swiper-services {
+  @media (min-width:0px) and (max-width:767px) {
+    height: 240px;
+    padding-left: 16px;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 220px;
+      width: 24px;
+      top: -5px;
+      right: 0;
+      z-index: 2;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 220px;
+      width: 24px;
+      top: -5px;
+      transform: rotate(180deg);
+      left: 0;
+      z-index: 2;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+  }
+}

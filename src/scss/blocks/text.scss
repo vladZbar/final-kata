@@ -1,0 +1,16 @@
+.text {
+  @media (min-width:0px) and (max-width:767px) {
+    max-height: 90px;
+    overflow: hidden;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    max-height: 140px;
+    overflow: hidden;
+  }
+
+  @media (min-width:1440px) {
+    max-height: 140px;
+    overflow: hidden;
+  }
+}

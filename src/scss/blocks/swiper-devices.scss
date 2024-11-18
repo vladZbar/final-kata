@@ -1,0 +1,27 @@
+.swiper-devices {
+  @media (min-width:0px) and (max-width:767px) {
+    padding-left: 16px;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 170px;
+      width: 24px;
+      right: 0px;
+      z-index: 2;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 170px;
+      width: 24px;
+      left: 0px;
+      z-index: 2;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+  }
+}

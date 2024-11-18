@@ -1,0 +1,62 @@
+.nav-wrap {
+  @media (min-width:0px) and (max-width:767px) {
+    position: relative;
+
+    &::before {
+      opacity: 0.99;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 81px;
+      width: 24px;
+      right: 0px;
+      z-index: 1;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+
+    &::after {
+      opacity: 0.99;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 81px;
+      width: 24px;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+      transform: rotate(180deg);
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    position: relative;
+
+    &::before {
+      opacity: 0.99;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 81px;
+      width: 24px;
+      right: 0px;
+      z-index: 1;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+
+    &::after {
+      opacity: 0.99;
+      content: '';
+      display: block;
+      position: absolute;
+      height: 81px;
+      width: 24px;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+      background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+      transform: rotate(180deg);
+    }
+  }
+
+}

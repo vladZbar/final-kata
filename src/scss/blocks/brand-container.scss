@@ -1,0 +1,22 @@
+.brand-container {
+  @media (min-width:0px) and (max-width:767px) {
+    padding: 16px 0px;
+    min-width: 0;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    padding: 24px;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  @media (min-width:1440px) {
+    padding: 32px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}

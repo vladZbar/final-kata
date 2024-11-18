@@ -1,0 +1,51 @@
+.services-header {
+  @media (min-width: 0px) and (max-width: 767px) {
+    width: 100%;
+    padding: 16px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      min-width: 288px;
+    }
+  }
+
+  @media (min-width: 767px) and (max-width: 1439px) {
+    width: 100%;
+    padding: 16px 24px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      width: 768px;
+      justify-self: center;
+      margin-left: 24px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    width: 100%;
+    padding: 16px 24px;
+    border-top: 1px solid $borderHeader;
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    font-family: 'TT lakes';
+
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+      color: $hover-text;
+      font-weight: 400;
+      min-width: 288px;
+    }
+  }
+}

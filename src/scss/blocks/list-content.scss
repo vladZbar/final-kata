@@ -1,0 +1,58 @@
+.list-content {
+  @media (min-width:0px) and (max-width:767px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+    &__logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      left: 0; 
+    }
+
+    &__logo-apple {
+      margin-top: -5px;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+    &__logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      left: 0;
+    }
+
+    &__logo-apple {
+      margin-top: -8px;
+    }
+  }
+
+  @media (min-width:1440px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+    &__logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      left: 0;
+    }
+
+    &__logo-apple {
+      margin-top: -8px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  @media (min-width: 0px) and (max-width: 767px) {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 768px;
+      min-width: 320px;
+      position: relative;
+      overflow: hidden;
+  }
+
+  @media (min-width:767px) and (max-width:1439px) {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1439px;
+      min-height: 100%;
+      position: relative;
+      overflow: hidden;
+  }
+
+  @media (min-width:1440px) {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-left: 320px;
+  }
+}
+
+body {
+  background-color: #F8F8F8;
+}

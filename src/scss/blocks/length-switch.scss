@@ -1,0 +1,14 @@
+.length-switch {
+  &__item {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-family: 'TT lakes';
+    color: $main-text;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+
+  &__item--active {
+    color: $hover-text;
+  }
+}

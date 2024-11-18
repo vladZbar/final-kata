@@ -1,0 +1,22 @@
+.side-header {
+  height: 88px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+
+  @media (min-width: 1440px) {
+    padding: 32px;
+  }
+
+  &__logo {
+    margin-right: auto;
+    transition: 0.3s;
+  }
+
+  &__logo:hover {
+    opacity: 0.7;
+    scale: 0.97;
+  }
+}

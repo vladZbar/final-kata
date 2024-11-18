@@ -1,0 +1,13 @@
+.swiper-slide {
+  width: 224px;
+
+  &--services {
+    width: 260px;
+  }
+
+  &--devices {
+    font-family: "TT lakes";
+    width: 240px;
+    height: 200px;
+  }
+}

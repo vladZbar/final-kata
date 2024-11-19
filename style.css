@@ -162,6 +162,9 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.3s; }
+  .side-button:hover {
+    opacity: 0.7;
+    transform: scale(0.95); }
   @media (min-width: 1440px) {
     .side-button--close {
       display: none !important; }
